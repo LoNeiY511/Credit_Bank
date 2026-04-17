@@ -1,5 +1,5 @@
 # Credit_Bank
-1. Mục đích báo cáo
+## 1. Mục đích báo cáo
 Với vai trò là một chuyên gia phân tích rủi ro tín dụng tại Nova Bank – một tổ chức tài chính cung cấp các khoản vay cá nhân, y tế, giáo dục và kinh doanh trên khắp Hoa Kỳ, Vương quốc Anh và Canada. Nova Bank mong muốn việc cho vay trở nên công bằng và dễ tiếp cận hơn, đồng thời vẫn bảo vệ ngân hàng trước những rủi ro không cần thiết.
 Thách thức chính là tìm ra sự cân bằng phù hợp. Nếu Nova Bank phê duyệt quá nhiều khoản vay rủi ro cao, họ sẽ mất tiền. Nếu quá khắt khe, họ sẽ bỏ lỡ những khách hàng tiềm năng. Bằng cách nhìn vào dữ liệu, nhiệm vụ của bạn là giúp ngân hàng hiểu rõ ai là người có xu hướng nợ quá hạn (default), tại sao họ lại làm vậy, và làm thế nào để các quyết định cho vay trở nên đáng tin cậy hơn.
 
@@ -39,10 +39,10 @@ Thách thức chính là tìm ra sự cân bằng phù hợp. Nếu Nova Bank ph
 | | `cb_person_default_on_file` | Khách hàng đã từng có lịch sử nợ xấu trước đây chưa (Y/N) |
 | | `cb_person_cred_hist_length` | Chiều dài lịch sử tín dụng (số năm) |
 | | `past_delinquencies` | Số lần quá hạn thanh toán/vi phạm trong quá khứ |
-3. Modeling
+## 3. Modeling
 <img width="855" height="524" alt="image" src="https://github.com/user-attachments/assets/569c7656-366b-4946-9860-7128e597e18f" />
 
-4. Thiết kế báo cáo
+## 4. Thiết kế báo cáo
 Credit_risk_report.pdf
 https://github.com/LoNeiY511/Credit_Bank/blob/main/Credit_Risk_Report.pdf
 

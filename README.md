@@ -46,14 +46,14 @@ Thách thức chính là tìm ra sự cân bằng phù hợp. Nếu Nova Bank ph
 Credit_risk_report.pdf
 https://github.com/LoNeiY511/Credit_Bank/blob/main/Credit_Risk_Report.pdf
 
-Phân tích dữ liệu hơn 32K khách hàng với tổng dư nợ 312M, xây dựng dashboard đánh giá rủi ro tín dụng bằng Power BI 
-Xác định tỷ lệ vỡ nợ ~22% và các yếu tố ảnh hưởng chính: thu nhập, xếp hạng tín dụng, tỷ lệ vay/thu nhập 
-Phát hiện bất cập trong hệ thống chấm điểm: nhóm A, B vẫn có tỷ lệ nợ xấu cao (~10–16%) 
-Đề xuất cải tiến chính sách tín dụng: 
-•	Giới hạn tỷ lệ vay/thu nhập < 0.4 để giảm rủi ro vỡ nợ 
-•	Siết chặt cho vay với nhóm thu nhập <30K 
-•	Loại bỏ cấp tín dụng cho nhóm rủi ro cao (D–G) 
-Trực quan hóa dữ liệu theo nhiều chiều: nhân khẩu học, tài chính, lịch sử tín dụng giúp hỗ trợ ra quyết định
+### Phân tích dữ liệu hơn 32K khách hàng với tổng dư nợ 312M, xây dựng dashboard đánh giá rủi ro tín dụng bằng Power BI 
+### Xác định tỷ lệ vỡ nợ ~22% và các yếu tố ảnh hưởng chính: thu nhập, xếp hạng tín dụng, tỷ lệ vay/thu nhập 
+### Phát hiện bất cập trong hệ thống chấm điểm: nhóm A, B vẫn có tỷ lệ nợ xấu cao (~10–16%) 
+### Đề xuất cải tiến chính sách tín dụng: 
+### •	Giới hạn tỷ lệ vay/thu nhập < 0.4 để giảm rủi ro vỡ nợ 
+### •	Siết chặt cho vay với nhóm thu nhập <30K 
+### •	Loại bỏ cấp tín dụng cho nhóm rủi ro cao (D–G) 
+### Trực quan hóa dữ liệu theo nhiều chiều: nhân khẩu học, tài chính, lịch sử tín dụng giúp hỗ trợ ra quyết định
 
 
 

@@ -9,18 +9,15 @@ Dự án tập trung vào việc phân tích bộ dữ liệu gồm **20+ chỉ 
 ## 🛠 Quy trình thực hiện (Workflow)
 
 ### a. Xử lý dữ liệu với Python
-* **Data Cleaning:** * Xử lý giá trị thiếu (Missing values) bằng phương pháp median.
-    * Loại bỏ các cột định danh (`client_ID`) và dữ liệu nhiễu không có giá trị dự báo.
-* **Feature Engineering:** * Tạo các chỉ số tài chính mới như `loan_to_income_ratio`.
-    * Mã hóa các biến định tính (`loan_grade`, `person_home_ownership`, `loan_intent`) sang định dạng số để phục vụ phân tích.
-* **Correlation Analysis:** * Xây dựng Ma trận tương quan (Correlation Matrix) để xác định các yếu tố then chốt (Key Drivers).
-    * **Phát hiện:** `loan_percent_income` và `loan_int_rate` là hai yếu tố có tương quan thuận mạnh nhất với rủi ro vỡ nợ.
+* **Xử lý giá trị thiếu (Missing values) bằng phương pháp median.** 
+* **Mã hóa các biến định tính (`loan_grade`, `person_home_ownership`, `loan_intent`) sang định dạng số để phục vụ phân tích.** 
+* **Xây dựng Ma trận tương quan (Correlation Matrix) để xác định các yếu tố then chốt (Key Drivers).** 
 ### b. Trực quan hóa và phân tích bằng PowerBi
-* **Thông tin khoản vay (Loan Information).** *
-* **Thông tin cơ bản của khách hàng (Demographics).** *
-* **Thông tin tài chính (Financial Information).** *
-* **Thông tin lịch sử tín dụng (Credit History).** *
-* **Phân tích đa chiều (Multidimensional Analysis)** *
+* **Thông tin khoản vay.** 
+* **Thông tin cơ bản của khách hàng.** 
+* **Thông tin tài chính.** 
+* **Thông tin lịch sử tín dụng.** 
+* **Phân tích đa chiều.** 
 ## 2. Mô tả chi tiết dữ liệu
 
 ### a. Nguồn dữ liệu

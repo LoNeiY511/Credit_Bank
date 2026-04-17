@@ -69,6 +69,6 @@ Xây dựng Dashboard đa chiều hỗ trợ ra quyết định kinh doanh dựa
 * **Lịch sử tín dụng:** Thời gian vay, các khoản nợ quá hạn trong quá khứ.
 
 ---
-*Công cụ sử dụng: Power BI (DAX, Power Query), Excel/SQL.*
+*Công cụ sử dụng: Power BI (DAX, Power Query)
 
 

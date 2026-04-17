@@ -46,14 +46,29 @@ Thách thức chính là tìm ra sự cân bằng phù hợp. Nếu Nova Bank ph
 Credit_risk_report.pdf
 https://github.com/LoNeiY511/Credit_Bank/blob/main/Credit_Risk_Report.pdf
 
-* Phân tích dữ liệu hơn 32K khách hàng với tổng dư nợ 312M, xây dựng dashboard đánh giá rủi ro tín dụng bằng Power BI 
-* Xác định tỷ lệ vỡ nợ ~22% và các yếu tố ảnh hưởng chính: thu nhập, xếp hạng tín dụng, tỷ lệ vay/thu nhập 
-* Phát hiện bất cập trong hệ thống chấm điểm: nhóm A, B vẫn có tỷ lệ nợ xấu cao (~10–16%) 
-* Đề xuất cải tiến chính sách tín dụng: 
-* •	Giới hạn tỷ lệ vay/thu nhập < 0.4 để giảm rủi ro vỡ nợ 
-* •	Siết chặt cho vay với nhóm thu nhập <30K 
-* •	Loại bỏ cấp tín dụng cho nhóm rủi ro cao (D–G) 
-* Trực quan hóa dữ liệu theo nhiều chiều: nhân khẩu học, tài chính, lịch sử tín dụng giúp hỗ trợ ra quyết định
+## 📊 Phân tích Rủi ro Tín dụng & Xây dựng Dashboard (Power BI)
 
+### **Tổng quan dự án**
+Phân tích tập dữ liệu của hơn **32.000 khách hàng** với tổng dư nợ **312 triệu USD**, nhằm xác định các yếu tố dẫn đến nợ xấu và xây dựng giải pháp tối ưu hóa danh mục cho vay.
+
+### **Các kết quả chính**
+* **Xác định tỷ lệ nợ xấu (Default Rate):** Chạm mức **~22%**.
+* **Phân tích nhân tố ảnh hưởng:** Xác định 3 biến số có tác động lớn nhất đến rủi ro: **Thu nhập (Income)**, **Xếp hạng tín dụng (Credit Grade)** và **Tỷ lệ nợ/thu nhập (DTI)**.
+
+
+### **Đề xuất cải tiến chính sách**
+Dựa trên kết quả phân tích, các thay đổi chiến lược đã được đề xuất để giảm thiểu rủi ro hệ thống:
+* **Kiểm soát ngưỡng an toàn:** Giới hạn tỷ lệ vay/thu nhập dưới **0.4** để giảm thiểu xác suất vỡ nợ.
+* **Siết chặt điều kiện:** Áp dụng tiêu chuẩn khắt khe hơn đối với phân khúc khách hàng có thu nhập thấp (**<30K USD/năm**).
+* **Tối ưu danh mục:** Loại bỏ cấp tín dụng cho nhóm khách hàng thuộc phân loại rủi ro cao (**Grade D đến G**).
+
+### **Trực quan hóa dữ liệu**
+Xây dựng Dashboard đa chiều hỗ trợ ra quyết định kinh doanh dựa trên các khía cạnh:
+* **Nhân khẩu học:** Độ tuổi, khu vực, tình trạng nhà ở.
+* **Tài chính:** Thu nhập, tổng dư nợ, mục đích vay vốn.
+* **Lịch sử tín dụng:** Thời gian vay, các khoản nợ quá hạn trong quá khứ.
+
+---
+*Công cụ sử dụng: Power BI (DAX, Power Query), Excel/SQL.*
 
 

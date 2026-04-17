@@ -1,8 +1,26 @@
-# Credit_Bank
-## 1. Mục đích báo cáo
-Với vai trò là một chuyên gia phân tích rủi ro tín dụng tại Nova Bank – một tổ chức tài chính cung cấp các khoản vay cá nhân, y tế, giáo dục và kinh doanh trên khắp Hoa Kỳ, Vương quốc Anh và Canada. Nova Bank mong muốn việc cho vay trở nên công bằng và dễ tiếp cận hơn, đồng thời vẫn bảo vệ ngân hàng trước những rủi ro không cần thiết.
-Thách thức chính là tìm ra sự cân bằng phù hợp. Nếu Nova Bank phê duyệt quá nhiều khoản vay rủi ro cao, họ sẽ mất tiền. Nếu quá khắt khe, họ sẽ bỏ lỡ những khách hàng tiềm năng. Bằng cách nhìn vào dữ liệu, nhiệm vụ của bạn là giúp ngân hàng hiểu rõ ai là người có xu hướng nợ quá hạn (default), tại sao họ lại làm vậy, và làm thế nào để các quyết định cho vay trở nên đáng tin cậy hơn.
+## 1. Tổng quan dự án (Overview)
+Dự án tập trung vào việc phân tích bộ dữ liệu gồm **20+ chỉ số khách hàng** nhằm xác định các đặc điểm nhận diện nhóm khách hàng có khả năng vỡ nợ cao (`loan_status = 1`).
 
+* **Công cụ sử dụng:** Python (Pandas, Seaborn, Matplotlib), Power BI.
+* **Mục tiêu:** Cung cấp insight thực thi (actionable insights) cho bộ phận quản trị rủi ro để tối ưu hóa chính sách phê duyệt khoản vay.
+
+---
+
+## 🛠 Quy trình thực hiện (Workflow)
+
+### a. Xử lý dữ liệu với Python
+* **Data Cleaning:** * Xử lý giá trị thiếu (Missing values) bằng phương pháp median.
+    * Loại bỏ các cột định danh (`client_ID`) và dữ liệu nhiễu không có giá trị dự báo.
+* **Feature Engineering:** * Tạo các chỉ số tài chính mới như `loan_to_income_ratio`.
+    * Mã hóa các biến định tính (`loan_grade`, `person_home_ownership`, `loan_intent`) sang định dạng số để phục vụ phân tích.
+* **Correlation Analysis:** * Xây dựng Ma trận tương quan (Correlation Matrix) để xác định các yếu tố then chốt (Key Drivers).
+    * **Phát hiện:** `loan_percent_income` và `loan_int_rate` là hai yếu tố có tương quan thuận mạnh nhất với rủi ro vỡ nợ.
+### b. Trực quan hóa và phân tích bằng PowerBi
+* **Thông tin khoản vay (Loan Information).** *
+* **Thông tin cơ bản của khách hàng (Demographics).** *
+* **Thông tin tài chính (Financial Information).** *
+* **Thông tin lịch sử tín dụng (Credit History).** *
+* **Phân tích đa chiều (Multidimensional Analysis)** *
 ## 2. Mô tả chi tiết dữ liệu
 
 ### a. Nguồn dữ liệu
